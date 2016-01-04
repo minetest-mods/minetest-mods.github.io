@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>{{ page.title }} - Minetest Mods</title>
+	<link rel="stylesheet" href="{{ page.root }}static/style.css">
+	<link rel="stylesheet" href="{{ page.root }}static/syntax.css">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<nav>
+		<li><a href="{{ page.root }}index.html">Home</a></li>
+		<li><a href="{{ page.root }}README.html">Manifest</a></li>
+		<li><a class="hr"
+			href="https://github.com/minetest-mods">GitHub</a></li>
+		<li><a
+			href="https://forum.minetest.net/viewtopic.php?f=47&t=13839">Forum</a></li>
+
+
+
+
+		{% for link in page.links %}
+		<li><a href="{{ link.url }}" {% if link.hr %}class="hr"{% endif %}>{{ link.text }}</a></li>
+		{% endfor %}
+	</nav>
+	<header>
+		<h1>{{ page.title }}</h1>
+	</header>
+	<main>
+		{{ content }}
+	</main>
+	<footer>
+		Licensed under CC0 or WTFPL.
+	</footer>
+</body>
+</html>

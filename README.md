@@ -1,5 +1,7 @@
-
-# Manifest of the Minetest-Mods team and Mod content.
+---
+title: Manifest of the Minetest-Mods team and Mod content
+layout: default
+---
 
 This document describes the organization and requirements of the Minetest-Mods team, it's goal
 and regulations.
