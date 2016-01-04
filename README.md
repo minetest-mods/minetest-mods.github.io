@@ -46,6 +46,11 @@ modpack. For cooperative maintenance of modpacks, see the minetest-modpacks team
 or look at the minetest-games project. (At the time of writing of this document, those
 two teams/projects do not exist).
 
+Mods should ensure that they have all the needed files present to assure dependencies
+and mod metadata is present. description.txt is required to be present, and we strongly
+urge mods to have mod.conf present, as well as a screenshot.png file, a LICENSE file
+and a README.md file as well.
+
 ## Member organization
 
 The project's team members are organized into specific roles:
