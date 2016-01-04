@@ -36,6 +36,10 @@ not present any other legal issues.
 The project admins reserve the right to discontinue, remove or refuse any project based
 on legality, content or other, at their discretion.
 
+The original author of the mod should be the one submitting it to the minetest-mods
+project. Only in exigent circumstances will a mod fork be allowed, and admins reserve
+the right to refuse mod forks at their discretion.
+
 Modpacks (groups of mods bundled together) are not permitted in minetest-mods, as they
 make management more difficult and prevent users from installing only parts of of a
 modpack. For cooperative maintenance of modpacks, see the minetest-modpacks team instead,
