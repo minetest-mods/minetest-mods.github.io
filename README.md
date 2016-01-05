@@ -30,10 +30,10 @@ This project hosts any minetest mod that mod authors have contributed to the Min
 project, permitted these mods are properly licensed as an Open Source project, and do
 not present any other legal issues.
 
-* Mods must be licensed under an OSI approved license
-* Mods do not need to be minetest-licensing compatible (meaning, GPL3.0+ is fine)
-* Non-OSI licenses may be acceptable
-* Pure Public Domain is not acceptable, however WTFPL, MIT or CC0 may be acceptable
+* OSI approved license are strongly preferred.
+* Mods do not need to be minetest-licensing compatible (meaning, (A)GPL3.0+ is fine).
+* Non-OSI licenses may be acceptable, but this is determined on a one-by-one case.
+* Pure Public Domain is not acceptable, however WTFPL, MIT or similar usually is acceptable.
 
 The project admins reserve the right to discontinue, remove or refuse any project based
 on legality, content or other, at their discretion.
