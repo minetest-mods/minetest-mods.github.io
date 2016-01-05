@@ -40,7 +40,10 @@ on legality, content or other, at their discretion.
 
 The original author of the mod should be the one submitting it to the minetest-mods
 project. Only in exigent circumstances will a mod fork be allowed, and admins reserve
-the right to refuse mod forks at their discretion.
+the right to refuse mod forks at their discretion. In general, forks are only allowed
+if the original author clearly no longer maintains the project, and if the project has
+been properly licensed by the original author, and last, that the project license has
+remained unchanged in the fork.
 
 Modpacks (groups of mods bundled together) are not permitted in minetest-mods, as they
 make management more difficult and prevent users from installing only parts of of a
