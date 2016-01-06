@@ -10,7 +10,16 @@ All mods should work well together.
 ## How is a Mod added?
 
 The original author of the Mod should be the one submitting it to the minetest-mods
-project. Contact a [minetest-mods admin](https://github.com/orgs/minetest-mods/people).
+project. Under circumstances (abandoned, author not responsive etc.) we will consider
+forks. To submit your project to be added and become the maintainer of a project, submit
+a new github issue here: [Open Request](https://github.com/minetest-mods/minetest-mods.github.io/issues/new)
+
+In your request, please provide the following information
+* your mod name
+* author (github username)
+* the license(s) of your mod
+
+By submitting a project, you acknowledge that you agree to the rules in the [manifest](README.html)
 
 ## Can any Minetest mod be added?
 
