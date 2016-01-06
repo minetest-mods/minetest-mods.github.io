@@ -14,7 +14,8 @@ project. Under circumstances (abandoned, author not responsive etc.) we will con
 forks. To submit your project to be added and become the maintainer of a project, submit
 a new github issue here: [Open Request](https://github.com/minetest-mods/minetest-mods.github.io/issues/new?title=New%20mod%20request)
 
-In your request, please provide the following information
+In your request, please provide the following information:
+
 * your mod name
 * author (github username)
 * the license(s) of your mod
