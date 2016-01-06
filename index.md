@@ -47,3 +47,5 @@ Click here: [Open Request](https://github.com/minetest-mods/minetest-mods.github
 ## Got any more questions?
 
 Read [our full manifest](README.html).
+
+Alternatively, read the informal [forum announcement post](https://forum.minetest.net/viewtopic.php?f=47&t=13839), and leave feedback or join the discussion.
