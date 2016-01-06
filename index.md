@@ -12,7 +12,7 @@ All mods should work well together.
 The original author of the Mod should be the one submitting it to the minetest-mods
 project. Under circumstances (abandoned, author not responsive etc.) we will consider
 forks. To submit your project to be added and become the maintainer of a project, submit
-a new github issue here: [Open Request](https://github.com/minetest-mods/minetest-mods.github.io/issues/new)
+a new github issue here: [Open Request](https://github.com/minetest-mods/minetest-mods.github.io/issues/new?title=New%20mod%20request)
 
 In your request, please provide the following information
 * your mod name
