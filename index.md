@@ -24,6 +24,10 @@ By submitting a project, you acknowledge that you agree to the rules in the [man
 
 Click here: [Open Request](https://github.com/minetest-mods/minetest-mods.github.io/issues/new?title=New%20mod%20request)
 
+After opening a request ticket, you will be asked to initiate a "Transfer" request to move your mod. If you want to fork your moved repository back, you are obviously free to do so. You will be granted admin access on the moved repository. More information on the "Transfer" procedure can be found here: [Transfer Information](https://help.github.com/articles/transferring-a-repository/)
+
+We also send all mod owners a "become a member of minetest-mods" invitation. This invitation does not need to be accepted, and is merely for you (and us) to show who is participating in the minetest-mods organization. You do not require the invite. If you missed it, and would still like to become a listed member, please request another invitation.
+
 ## Can any Minetest mod be added?
 
 * Mods should preferrably be licensed under an OSI approved license.
