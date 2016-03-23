@@ -9,9 +9,11 @@ and regulations.
 ## Goal of this project
 
 This project exists to provide a method for minetest players and server operators
-to have a semi-trusted source of Minetest Mods. As Minetest mods are disctributed
-separately and no single source of mods exists, there are hundreds of Minetest Mods
-around in equal amount of locations on the internet.
+to have a semi-trusted source of Minetest Mods.
+
+Minetest mods are distributed separately and there is not a single source of mods.
+This has lead to hundreds of Minetest Mods around in equal amount of locations on
+the internet, and this is bad for players, server operators and developers alike.
 
 By providing a single hosting namespace for Minetest mods, this project serves as a
 method of telling users that a specific version of a Minetest mod is the preferred
