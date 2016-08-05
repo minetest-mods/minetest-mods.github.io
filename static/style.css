@@ -138,3 +138,14 @@ main h2 {
 	padding-bottom: 6px;
 	border-bottom: 3px solid #444;
 }
+
+.modlist {
+	list-style: none;
+	padding: 0;
+	margin: 20px 0 0 30px;
+}
+
+.modlist li {
+	list-style: none;
+	padding: 5px;
+}

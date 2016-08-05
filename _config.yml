@@ -1,0 +1,5 @@
+gems:
+   - github-pages
+   - jekyll-coffeescript
+   - jekyll-paginate
+organization: minetest-mods

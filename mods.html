@@ -1,0 +1,33 @@
+---
+title: Welcome
+layout: default
+---
+
+<p>
+	Minetest-mods hosts {{ site.github.public_repositories | size }} mods.
+</p>
+
+{% assign cap = "" %}
+{% for repository in site.github.public_repositories %}
+
+{% assign newcap = repository.name | slice: 0 | upcase %}
+
+
+{% if cap != newcap %}
+{% if needclose %}
+</ul>
+{% endif %}
+{% assign needclose = true %}
+{% assign cap = newcap %}
+<h2 class="modlist-alpha" id="{{ cap }}">{{ cap }}</h2>
+<ul class="modlist">
+{% endif %}
+
+
+<li>
+	<a href="{{ repository.html_url }}">{{ repository.name }}</a>
+	<br /> {{ repository.description }}
+</li>
+
+{% endfor %}
+</ul>
