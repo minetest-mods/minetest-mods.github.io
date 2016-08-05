@@ -1,0 +1,12 @@
+---
+layout: none
+---
+
+[{% for repository in site.github.public_repositories %}{% if repository.name != "minetest-mods.github.io" %}{% if co %},{% endif %}
+	{
+		"name": "{{ repository.name }}",
+		"description": "{{ repository.description | replace:'"','\\"' }}",
+		"repo": "{{ repository.html_url }}",
+		"download": "{{ repository.html_url }}/archive/master.zip"
+	}{% endif %}{% assign co = true %}{% endfor %}
+]
