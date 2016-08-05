@@ -1,5 +1,5 @@
 ---
-title: Welcome
+title: List of mods
 layout: default
 ---
 
@@ -9,6 +9,7 @@ layout: default
 
 {% assign cap = "" %}
 {% for repository in site.github.public_repositories %}
+{% if repository.name != "minetest-mods.github.io" %}
 
 {% assign newcap = repository.name | slice: 0 | upcase %}
 
@@ -29,5 +30,6 @@ layout: default
 	<br /> {{ repository.description }}
 </li>
 
+{% endif %}
 {% endfor %}
 </ul>
