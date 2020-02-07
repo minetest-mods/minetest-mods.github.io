@@ -35,28 +35,37 @@ not present any other legal issues.
 * OSI approved license are strongly preferred.
 * Mods do not need to be minetest-licensing compatible (meaning, (A)GPL3.0+ is fine).
 * Non-OSI licenses may be acceptable, but this is determined on a one-by-one case.
-* Pure Public Domain is not acceptable, however WTFPL, MIT or similar usually is acceptable.
+* Pure Public Domain is not acceptable, however ISC, MIT or similar usually is acceptable.
+* WTFPL is expressly discouraged and we ask that you relicense to another license
+  before submitting. There are several appropriate alternatives, such as MIT, ISC etc..
 
 The project admins reserve the right to discontinue, remove or refuse any project based
-on legality, content or other, at their discretion.
+on legality, content or other, at their discretion. However, removal requests for other
+than reasons other than non-acceptable content or licensing are unlikely to be granted.
 
 The original author of the mod should be the one submitting it to the minetest-mods
 project. Only in exigent circumstances will a mod fork be allowed, and admins reserve
 the right to refuse mod forks at their discretion. In general, forks are only allowed
 if the original author clearly no longer maintains the project, and if the project has
 been properly licensed by the original author, and last, that the project license has
-remained unchanged in the fork.
+remained unchanged in the fork. For the purpose of determining whether a mod is a fork
+or an original work, we note that forks that were created from non-public sources where
+the original work is not publicly available are not considered forks, but are considered
+the original public works and acceptable.
 
 Modpacks (groups of mods bundled together) are not permitted in minetest-mods, as they
 make management more difficult and prevent users from installing only parts of of a
 modpack. For cooperative maintenance of modpacks, see the minetest-modpacks team instead,
 or look at the minetest-games project. (At the time of writing of this document, those
-two teams/projects do not exist).
+two teams/projects do not exist). A few modpacks exist in minetest-mods, but they are
+the only ones and new modpacks will not be allowed.
 
 Mods should ensure that they have all the needed files present to assure dependencies
-and mod metadata is present. description.txt is required to be present, and we strongly
-urge mods to have mod.conf present, as well as a screenshot.png file, a LICENSE file
-and a README.md file as well.
+and mod metadata is present. description.txt and mod.conf files are required to be
+present, and we strongly request that mods have a screenshot.png file, a LICENSE file
+and a README.md file as well. Having a clear license statement is obviously a hard
+requirement, and you must be able to provide evidence that this license is proper if
+requested.
 
 ## Member organization
 
@@ -91,6 +100,25 @@ mods.
 * committer may manage PR's, push code to mod that they have been granted access to.
 * committer shall due their due dilligence cooperating with other committer, author and
 admin in maintaining the mod as a team.
+
+## Governance
+
+The organization shall regularly assess and verify that enough administrators are active
+and acting in the duty of administrator.
+
+The organization and it's administrators shall periodically report on and consult with
+authors and committers to determine if the amount of administrators is sufficient
+for the proper functioning of the organization. If the current amount of administrators
+is found to be insufficient by either the admins or the authors, then the organization
+including admins, authors and committers shall appoint the appropriate amount of
+new admins to the organization, and the existing admins shall grant the adminstrator
+access to the new admin on the organization's github organization.
+
+The appointment of new administrators can be vetoed by any active administrator, except
+no veto can be issued by any administrator that has announced their departure from the
+organization. The collective of all active admins, authors and committers can also veto
+new administrators if the number of people supporting that veto is larger than the number
+of people opposing that veto.
 
 ## Namespace Organization
 
