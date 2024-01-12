@@ -40,6 +40,8 @@ not present any other legal issues.
 The project admins reserve the right to discontinue, remove or refuse any project based
 on legality, content or other, at their discretion.
 
+⚠ **New mods are not being accepted into the project at this time** ⚠
+
 The original author of the mod should be the one submitting it to the minetest-mods
 project. Only in exigent circumstances will a mod fork be allowed, and admins reserve
 the right to refuse mod forks at their discretion. In general, forks are only allowed
