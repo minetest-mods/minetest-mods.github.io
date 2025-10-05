@@ -3,7 +3,7 @@ title: Welcome
 layout: default
 ---
 
-This project exists to **provide a semi-trusted source of Minetest Mods**.
+This project exists to **provide a semi-trusted source of Luanti/Minetest Mods**.
 Mods here should be stable (at least in the master branches).
 All mods should work well together.
 
@@ -28,7 +28,7 @@ After opening a request ticket, you will be asked to initiate a "Transfer" reque
 
 We also send all mod owners a "become a member of minetest-mods" invitation. This invitation does not need to be accepted, and is merely for you (and us) to show who is participating in the minetest-mods organization. You do not require the invite. If you missed it, and would still like to become a listed member, please request another invitation.
 
-## Can any Minetest mod be added?
+## Can any Luanti mod be added?
 
 * Mods should preferrably be licensed under an OSI approved license.
 * Mods do not need to be minetest-licensing compatible (meaning, GPL3.0+ is fine)
@@ -44,7 +44,7 @@ We also send all mod owners a "become a member of minetest-mods" invitation. Thi
 * The security of knowing many more developers are looking at mod code than just one person.
 
 ## What's in it for developers?
-* Knowing that they can take a break from Minetest when they need or choose to, and that someone will be capable of taking care of their mods.
+* Knowing that they can take a break from Luanti when they need or choose to, and that someone will be capable of taking care of their mods.
 * A large group of experienced mod developers that are willing to help out improve their code.
 * More users looking at their mods and better exposure.
 
@@ -52,4 +52,4 @@ We also send all mod owners a "become a member of minetest-mods" invitation. Thi
 
 Read [our full manifest](README.html).
 
-Alternatively, read the informal [forum announcement post](https://forum.minetest.net/viewtopic.php?f=47&t=13839), and leave feedback or join the discussion.
+Alternatively, read the informal [forum announcement post](https://forum.luanti.org/viewtopic.php?t=13839), and leave feedback or join the discussion.

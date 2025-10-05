@@ -8,19 +8,19 @@ and regulations.
 
 ## Goal of this project
 
-This project exists to provide a method for minetest players and server operators
-to have a semi-trusted source of Minetest Mods.
+This project exists to provide a method for Luanti players and server operators
+to have a semi-trusted source of Luanti/Minetest Mods.
 
 Minetest mods are distributed separately and there is not a single source of mods.
-This has lead to hundreds of Minetest Mods around in equal amount of locations on
+This has lead to hundreds of Luanti Mods around in equal amount of locations on
 the internet, and this is bad for players, server operators and developers alike.
 
-By providing a single hosting namespace for Minetest mods, this project serves as a
+By providing a single hosting namespace for Luanti mods, this project serves as a
 method of telling users that a specific version of a Minetest mod is the preferred
 or recommended version of that mod. This helps to alleviate the issues of having many
 forks of Minetest mods around.
 
-Authors of Minetest Mods that host their mods in the minetest-mods project explicitly
+Authors who host their mods in the minetest-mods project explicitly
 allow the minetest-mods admins to merge changes into their mods. This allows the authors
 of these mods to "sign out" for a while knowing that their mods are being taken care of,
 and provides a method for users to continue using the exact same mods long after the
@@ -28,7 +28,7 @@ original author has moved on since these mods will still be maintained.
 
 ## Contents of the project
 
-This project hosts any minetest mod that mod authors have contributed to the Minetest Mods
+This project hosts any Luanti mod that mod authors have contributed to the minetest-mods
 project, permitted these mods are properly licensed as an Open Source project, and do
 not present any other legal issues.
 
@@ -109,8 +109,8 @@ discussion and cooperate, to avoid mod conflicts and improve mod harmony.
 
 Mod author and admin should do their best to avoid supporting a legacy of old world
 data, as this generally does not provide the best atmosphere to develop new mods and
-mod features going forward. At times it may be best to remove support for old minetest
-game versions, old APIs or game object types. We encourage people to provide fallback
+mod features going forward. At times it may be best to remove support for old Luanti
+versions, old APIs or game object types. We encourage people to provide fallback
 code for old code, but would prefer if people code with a healthy attitude of cleaning
 out old code instead.
 
